@@ -5,7 +5,7 @@ define('DATABASE_SERVER',   'localhost');
 define('DATABASE_USERNAME', 'root');
 define('DATABASE_PASSWORD', 'root');
 define('DATABASE_NAME',     'bio');
-define('SITE_URL',          'http://localhost/bot_v5/');
+define('SITE_URL',          'http://localhost/bot_v10/');
 
 /* ImgBB API Key */
 define('IMGBB_API_KEY',     '768b1db02883640d5b9dbc2e61e63d5a');
