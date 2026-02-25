@@ -1,3 +1,9 @@
-logs/
-node_modules/
-build/
+install/
+vendor/
+uploads/
+app/includes/GeoLite2-City.mmdb
+app/includes/GeoLite2-Country.mmdb
+*.log
+*.tmp
+*.bak
+*.mmdb
