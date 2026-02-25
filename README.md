@@ -2,7 +2,7 @@
 
 ---
 
-# Project Name: AltumCode - Update 65.0.0 - 25 February, 2026
+# Project Name: Mssq - Update 65.0.0 - 25 February, 2026
 
 ## 🆕 New Features & Enhancements
 
