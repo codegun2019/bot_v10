@@ -445,6 +445,14 @@ class Router {
                 ]
             ],
 
+             'images-upload' => [
+                'controller' => 'ImagesUpload',
+                'settings' => [
+                    'wrapper' => 'app_wrapper',
+                    'ads' => true,
+                ]
+            ],
+
             'transcriptions' => [
                 'controller' => 'Transcriptions',
                 'settings' => [

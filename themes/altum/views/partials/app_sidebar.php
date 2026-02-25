@@ -127,11 +127,15 @@
                     </li>
                 <?php endif ?>
 
-                <?php if(\Altum\Plugin::is_active('email-signatures') && settings()->signatures->is_enabled): ?>
+                <?php if(settings()->signatures->is_enabled): ?>
                     <li class="<?= in_array(\Altum\Router::$controller, ['Signatures', 'SignatureUpdate', 'SignatureCreate']) ? 'active' : null ?>">
                         <a href="<?= url('signatures') ?>"><i class="fas fa-fw fa-sm fa-file-signature mr-2"></i> <?= l('signatures.menu') ?></a>
                     </li>
                 <?php endif ?>
+
+                <li class="<?= \Altum\Router::$controller == 'ImagesUpload' ? 'active' : null ?>">
+                    <a href="<?= url('images-upload') ?>"><i class="fas fa-fw fa-sm fa-upload mr-2"></i> <?= l('images_upload.menu') ?></a>
+                </li>
             <?php endif ?>
 
             <?php if(settings()->tools->is_enabled && (settings()->tools->access == 'everyone' || (settings()->tools->access == 'users' && is_logged_in()))): ?>
